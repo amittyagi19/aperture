@@ -8,7 +8,7 @@ import com.sephora.msl.driver.website.MSLSephoraDriver;
 
 import cucumber.api.testng.AbstractTestNGCucumberTests;
 import io.cucumber.java.Scenario;
-
+import io.cucumber.java.en.Given;
 import io.cucumber.java.Scenario;
 import io.cucumber.testng.CucumberOptions;
 
@@ -16,7 +16,7 @@ import io.cucumber.testng.CucumberOptions;
 		"com.sephora.msl.base.BaseConfiguration","testng:target/testng-cucumber-reports/cuketestng.xml" }, features = "src/test/resources/features")
 //@Test
 public class TestRunner //extends AbstractTestNGCucumberTests 
-//extends AbstractTestNGCucumberParallelTests 
+    extends AbstractTestNGCucumberParallelTests 
 {
 
 	private static long duration;
@@ -39,6 +39,6 @@ public class TestRunner //extends AbstractTestNGCucumberTests
 	public static void runtest()
 	{
 		System.out.println("Run Test Aperture");
-	}
+	}		
 }
  

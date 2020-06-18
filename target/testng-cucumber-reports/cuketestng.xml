@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testng-results failed="0" passed="0" skipped="0" total="0">
-<suite duration-ms="7182" name="io.cucumber.core.plugin.TestNGFormatter">
-<test duration-ms="7182" name="io.cucumber.core.plugin.TestNGFormatter"/>
+<testng-results failed="0" passed="1" skipped="0" total="1">
+<suite duration-ms="9192" name="io.cucumber.core.plugin.TestNGFormatter">
+<test duration-ms="9192" name="io.cucumber.core.plugin.TestNGFormatter">
+<class name="Aperture Create Account,Search Account &amp; Edit Account">
+<test-method duration-ms="380" finished-at="2020-06-18T13:50:52.519Z" name="Validate Create Account Search Account &amp; Edit Account" started-at="2020-06-18T13:50:52.137Z" status="PASS"/>
+</class>
+</test>
 </suite>
 </testng-results>

@@ -22,29 +22,9 @@ import io.cucumber.java.en.When;
 
 public class ParentSteps  {
 
-	protected boolean screenshotOnFailure;
-	Logger logger = LogManager.getLogger(ParentSteps.class.getName());
-    
-	protected String screenshotDestinationFolder;
-	protected AppLoginPage applLoginPage;
-	protected Scenario scenario;
-	protected CreateDataListFromExcel createDataList;
-	protected List<List<String>> firstExcelRows;
-	protected List<List<String>> secondExcelRows;
-
-	public ParentSteps(AppLoginPage applLoginPage) {
-		logger.debug("in the constructor of: " + this.getClass().getName());
-		this.applLoginPage = applLoginPage;
-	}
-	@Given("Create list of data for first excel {string}")
-	public void create_list_of_data_for_first_excel(String filePath) {
-		createDataList=new CreateDataListFromExcel();
-		firstExcelRows = createDataList.transform(filePath);    
-	}
-	@Given("Create list of data for second excel {string}")
-	public void create_list_of_data_for_second_excel(String filePath) {
-		createDataList=new CreateDataListFromExcel();
-		secondExcelRows = createDataList.transform(filePath);   
+	@Given("This is my first feature")
+	public void this_is_my_first_feature() {
+		System.out.println("This is my first feature");
 	}
 	
 }

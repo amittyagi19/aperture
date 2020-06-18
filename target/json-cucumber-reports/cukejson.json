@@ -1,1 +1,80 @@
-[]
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-06-18T13:50:52.137Z",
+        "before": [
+          {
+            "result": {
+              "duration": 366000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sephora.msl.steps.CucumberHooks.beforeHook(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 8000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sephora.msl.steps.groups.GroupsPageSteps.before(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Validate Create Account Search Account \u0026 Edit Account",
+        "description": "",
+        "id": "aperture-create-account-search-account-\u0026-edit-account;validate-create-account-search-account-\u0026-edit-account",
+        "after": [
+          {
+            "result": {
+              "duration": 4000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sephora.msl.steps.login.LoginPageSteps.after()"
+            }
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sephora.msl.steps.CucumberHooks.afterHook(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "This is my first feature",
+            "match": {
+              "location": "com.sephora.msl.steps.ParentSteps.this_is_my_first_feature()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Account"
+          }
+        ]
+      }
+    ],
+    "name": "Aperture Create Account,Search Account \u0026 Edit Account",
+    "description": "",
+    "id": "aperture-create-account-search-account-\u0026-edit-account",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/1-AccountCreate.feature",
+    "tags": []
+  }
+]

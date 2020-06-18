@@ -49,8 +49,9 @@ private static boolean isReporterrunning;
 		logger.info("\n******************************************************************************************************************************"+
 				"\n\t\t\t\t\tTEST SCENARIO NAME:    "+ scenario.getName()+
 				"\n******************************************************************************************************************************");
-			driver.getURL(propertyFile.getProperty("sephora.end.user.url"));
-		applLoginPage.login(propertyFile.getProperty("Username"), propertyFile.getProperty("Password"));
+			//driver.getURL(propertyFile.getProperty("sephora.end.user.url"));
+		//driver.getURL("www.google.com");
+		//applLoginPage.login(propertyFile.getProperty("Username"), propertyFile.getProperty("Password"));
 		}
 	@After
 	public void afterHook(Scenario scenario) throws Exception {
@@ -62,17 +63,17 @@ private static boolean isReporterrunning;
 		if(scenario.isFailed()) {
 			logger.info("[TEST IS FAILED -------- Test case " + scenario.getName()	+ " has failed]");
 			try {
-				String sScreenshotPath = MSLSephoraDriver.takeSnapShotAndRetPath(screenshotFileName,false);
-				logger.info("Snapshot Path :<a href='" + sScreenshotPath + "'>"+ sScreenshotPath+"</a>\n");
+				//String sScreenshotPath = MSLSephoraDriver.takeSnapShotAndRetPath(screenshotFileName,false);
+				//logger.info("Snapshot Path :<a href='" + sScreenshotPath + "'>"+ sScreenshotPath+"</a>\n");
 			} catch (Exception e) {
 				// TODO Auto-generated catch block
-				e.printStackTrace();
+				//e.printStackTrace();
 			}
 			
 		}
-		extRep.createTest(scenario, screenshotFileName);
-		extRep.writeToReport();
-		applLoginPage.logout();
+		//extRep.createTest(scenario, screenshotFileName);
+		//extRep.writeToReport();
+		//applLoginPage.logout();
 	}
 
 }

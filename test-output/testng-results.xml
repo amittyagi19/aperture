@@ -1,25 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="MSL BDD Test Suite" duration-ms="53" started-at="2020-06-18T12:52:23Z" finished-at="2020-06-18T12:52:24Z">
+  <suite name="Default suite" duration-ms="12254" started-at="2020-06-18T13:50:42Z" finished-at="2020-06-18T13:50:54Z">
     <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@6be46e8f]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
     </groups>
-    <test name="User Group Test" duration-ms="53" started-at="2020-06-18T12:52:23Z" finished-at="2020-06-18T12:52:24Z">
+    <test name="Default test" duration-ms="12254" started-at="2020-06-18T13:50:42Z" finished-at="2020-06-18T13:50:54Z">
       <class name="runner.TestRunner">
-        <test-method status="PASS" signature="before()[pri:0, instance:runner.TestRunner@180bc464]" name="before" is-config="true" duration-ms="25" started-at="2020-06-18T18:22:23Z" finished-at="2020-06-18T18:22:24Z">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:runner.TestRunner@6be46e8f]" name="setUpClass" is-config="true" duration-ms="1029" started-at="2020-06-18T19:20:42Z" finished-at="2020-06-18T19:20:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="before()[pri:0, instance:runner.TestRunner@6be46e8f]" name="before" is-config="true" duration-ms="0" started-at="2020-06-18T19:20:43Z" finished-at="2020-06-18T19:20:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- before -->
-        <test-method status="PASS" signature="runtest()[pri:0, instance:runner.TestRunner@180bc464]" name="runtest" duration-ms="5" started-at="2020-06-18T18:22:24Z" finished-at="2020-06-18T18:22:24Z">
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@6be46e8f]" name="runScenario" duration-ms="661" started-at="2020-06-18T19:20:51Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-06-18T19:20:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate Create Account Search Account & Edit Account"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Aperture Create Account,Search Account & Edit Account"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runtest()[pri:0, instance:runner.TestRunner@6be46e8f]" name="runtest" duration-ms="1" started-at="2020-06-18T19:20:52Z" finished-at="2020-06-18T19:20:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runtest -->
-        <test-method status="PASS" signature="after()[pri:0, instance:runner.TestRunner@180bc464]" name="after" is-config="true" duration-ms="3" started-at="2020-06-18T18:22:24Z" finished-at="2020-06-18T18:22:24Z">
+        <test-method status="PASS" signature="after()[pri:0, instance:runner.TestRunner@6be46e8f]" name="after" is-config="true" duration-ms="10" started-at="2020-06-18T19:20:52Z" finished-at="2020-06-18T19:20:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- after -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runner.TestRunner@6be46e8f]" name="tearDownClass" is-config="true" duration-ms="1863" started-at="2020-06-18T19:20:52Z" finished-at="2020-06-18T19:20:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
       </class> <!-- runner.TestRunner -->
-    </test> <!-- User Group Test -->
-  </suite> <!-- MSL BDD Test Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
