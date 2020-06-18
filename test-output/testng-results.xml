@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="MSL BDD Test Suite" duration-ms="67" started-at="2020-06-18T12:15:02Z" finished-at="2020-06-18T12:15:03Z">
+  <suite name="MSL BDD Test Suite" duration-ms="53" started-at="2020-06-18T12:52:23Z" finished-at="2020-06-18T12:52:24Z">
     <groups>
     </groups>
-    <test name="User Group Test" duration-ms="67" started-at="2020-06-18T12:15:02Z" finished-at="2020-06-18T12:15:03Z">
+    <test name="User Group Test" duration-ms="53" started-at="2020-06-18T12:52:23Z" finished-at="2020-06-18T12:52:24Z">
       <class name="runner.TestRunner">
-        <test-method status="PASS" signature="before()[pri:0, instance:runner.TestRunner@180bc464]" name="before" is-config="true" duration-ms="35" started-at="2020-06-18T17:45:02Z" finished-at="2020-06-18T17:45:03Z">
+        <test-method status="PASS" signature="before()[pri:0, instance:runner.TestRunner@180bc464]" name="before" is-config="true" duration-ms="25" started-at="2020-06-18T18:22:23Z" finished-at="2020-06-18T18:22:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- before -->
-        <test-method status="PASS" signature="runtest()[pri:0, instance:runner.TestRunner@180bc464]" name="runtest" duration-ms="5" started-at="2020-06-18T17:45:03Z" finished-at="2020-06-18T17:45:03Z">
+        <test-method status="PASS" signature="runtest()[pri:0, instance:runner.TestRunner@180bc464]" name="runtest" duration-ms="5" started-at="2020-06-18T18:22:24Z" finished-at="2020-06-18T18:22:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runtest -->
-        <test-method status="PASS" signature="after()[pri:0, instance:runner.TestRunner@180bc464]" name="after" is-config="true" duration-ms="1" started-at="2020-06-18T17:45:03Z" finished-at="2020-06-18T17:45:03Z">
+        <test-method status="PASS" signature="after()[pri:0, instance:runner.TestRunner@180bc464]" name="after" is-config="true" duration-ms="3" started-at="2020-06-18T18:22:24Z" finished-at="2020-06-18T18:22:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- after -->
