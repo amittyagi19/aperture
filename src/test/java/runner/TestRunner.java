@@ -13,7 +13,7 @@ import io.cucumber.testng.CucumberOptions;
 
 @CucumberOptions(tags= {"@smartGroup"},glue = "com.sephora.msl.steps", plugin = { "json:target/json-cucumber-reports/cukejson.json",
 		"com.sephora.msl.base.BaseConfiguration","testng:target/testng-cucumber-reports/cuketestng.xml" }, features = "src/test/resources/features")
-@Test
+//@Test
 public class TestRunner //extends AbstractTestNGCucumberParallelTests 
 {
 
@@ -31,6 +31,12 @@ public class TestRunner //extends AbstractTestNGCucumberParallelTests
 		
 		//"io.qameta.allure.cucumber4jvm.AllureCucumber4Jvm"
 		//tags = {"@groupMark"}
+	}
+	
+	@Test
+	public static void runtest()
+	{
+		System.out.println("Run Test Aperture");
 	}
 }
  
