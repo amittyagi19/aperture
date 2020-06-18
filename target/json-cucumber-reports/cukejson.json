@@ -3,24 +3,24 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2020-06-18T13:50:52.137Z",
+        "start_timestamp": "2020-06-18T15:18:15.811Z",
         "before": [
           {
             "result": {
-              "duration": 366000000,
+              "duration": 11767000000,
               "status": "passed"
             },
             "match": {
-              "location": "com.sephora.msl.steps.CucumberHooks.beforeHook(io.cucumber.java.Scenario)"
+              "location": "com.gspann.aperture.steps.CucumberHooks.beforeHook(io.cucumber.java.Scenario)"
             }
           },
           {
             "result": {
-              "duration": 8000000,
+              "duration": 1000000,
               "status": "passed"
             },
             "match": {
-              "location": "com.sephora.msl.steps.groups.GroupsPageSteps.before(io.cucumber.java.Scenario)"
+              "location": "com.gspann.aperture.steps.groups.GroupsPageSteps.before(io.cucumber.java.Scenario)"
             }
           }
         ],
@@ -31,11 +31,11 @@
         "after": [
           {
             "result": {
-              "duration": 4000000,
+              "duration": 1000000,
               "status": "passed"
             },
             "match": {
-              "location": "com.sephora.msl.steps.login.LoginPageSteps.after()"
+              "location": "com.gspann.aperture.steps.login.LoginPageSteps.after()"
             }
           },
           {
@@ -44,7 +44,7 @@
               "status": "passed"
             },
             "match": {
-              "location": "com.sephora.msl.steps.CucumberHooks.afterHook(io.cucumber.java.Scenario)"
+              "location": "com.gspann.aperture.steps.CucumberHooks.afterHook(io.cucumber.java.Scenario)"
             }
           }
         ],
@@ -53,12 +53,14 @@
         "steps": [
           {
             "result": {
-              "status": "passed"
+              "error_message": "java.lang.AssertionError: expected:\u003c5\u003e but was:\u003c6\u003e\r\n\tat org.junit.Assert.fail(Assert.java:93)\r\n\tat org.junit.Assert.failNotEquals(Assert.java:647)\r\n\tat org.junit.Assert.assertEquals(Assert.java:128)\r\n\tat org.junit.Assert.assertEquals(Assert.java:472)\r\n\tat org.junit.Assert.assertEquals(Assert.java:456)\r\n\tat com.gspann.aperture.steps.AccountStep.this_is_my_first_feature(AccountStep.java:29)\r\n\tat ✽.This is my first feature(file:///E:/Apparture/Aperture-Project/MVN/aperture/src/test/resources/features/1-AccountCreate.feature:6)\r\n",
+              "duration": 3000000,
+              "status": "failed"
             },
             "line": 6,
             "name": "This is my first feature",
             "match": {
-              "location": "com.sephora.msl.steps.ParentSteps.this_is_my_first_feature()"
+              "location": "com.gspann.aperture.steps.AccountStep.this_is_my_first_feature()"
             },
             "keyword": "Given "
           }

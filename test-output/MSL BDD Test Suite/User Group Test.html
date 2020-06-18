@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>User Group Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>1/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Thu Jun 18 18:58:26 IST 2020</td>
+<td>Started on:</td><td>Thu Jun 18 20:48:06 IST 2020</td>
 </tr>
-<tr><td>Total time:</td><td>0 seconds (83 ms)</td>
+<tr><td>Total time:</td><td>22 seconds (22306 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,6 +67,36 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate Create Account Search Account & Edit Account", "Aperture Create Account,Search Account & Edit Account"</td>
+<td><div><pre>java.lang.AssertionError: expected:&lt;5&gt; but was:&lt;6&gt;
+	at org.junit.Assert.fail(Assert.java:93)
+	at org.junit.Assert.failNotEquals(Assert.java:647)
+	at org.junit.Assert.assertEquals(Assert.java:128)
+	at org.junit.Assert.assertEquals(Assert.java:472)
+	at org.junit.Assert.assertEquals(Assert.java:456)
+	at com.gspann.aperture.steps.AccountStep.this_is_my_first_feature(AccountStep.java:29)
+	at ?.This is my first feature(file:///E:/Apparture/Aperture-Project/MVN/aperture/src/test/resources/features/1-AccountCreate.feature:6)
+</pre></div><a href='#' onClick='toggleBox("stack-trace2028726819", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2028726819'><pre>java.lang.AssertionError: expected:&lt;5&gt; but was:&lt;6&gt;
+	at org.junit.Assert.fail(Assert.java:93)
+	at org.junit.Assert.failNotEquals(Assert.java:647)
+	at org.junit.Assert.assertEquals(Assert.java:128)
+	at org.junit.Assert.assertEquals(Assert.java:472)
+	at org.junit.Assert.assertEquals(Assert.java:456)
+	at com.gspann.aperture.steps.AccountStep.this_is_my_first_feature(AccountStep.java:29)
+	at ?.This is my first feature(file:///E:/Apparture/Aperture-Project/MVN/aperture/src/test/resources/features/1-AccountCreate.feature:6)
+</pre></div></td>
+<td>11</td>
+<td>runner.TestRunner@6be46e8f</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -78,7 +108,7 @@ function toggleAllBoxes() {
 <td title='runner.TestRunner.runtest()'><b>runtest</b><br>Test class: runner.TestRunner</td>
 <td></td>
 <td>0</td>
-<td>runner.TestRunner@180bc464</td></tr>
+<td>runner.TestRunner@6be46e8f</td></tr>
 </table><p>
 </body>
 </html>

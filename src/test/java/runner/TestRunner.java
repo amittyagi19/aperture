@@ -3,8 +3,8 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-import com.sephora.msl.base.BaseConfiguration;
-import com.sephora.msl.driver.website.MSLSephoraDriver;
+import com.gspann.aperture.base.BaseConfiguration;
+import com.gspann.aperture.driver.website.ApertureDriver;
 
 import cucumber.api.testng.AbstractTestNGCucumberTests;
 import io.cucumber.java.Scenario;
@@ -12,8 +12,8 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.Scenario;
 import io.cucumber.testng.CucumberOptions;
 
-@CucumberOptions(tags= {"@Account"},glue = "com.sephora.msl.steps", plugin = { "json:target/json-cucumber-reports/cukejson.json",
-		"com.sephora.msl.base.BaseConfiguration","testng:target/testng-cucumber-reports/cuketestng.xml" }, features = "src/test/resources/features")
+@CucumberOptions(tags= {"@Account"},glue = "com.gspann.aperture.steps", plugin = { "json:target/json-cucumber-reports/cukejson.json",
+		"com.gspann.aperture.base.BaseConfiguration","testng:target/testng-cucumber-reports/cuketestng.xml" }, features = "src/test/resources/features")
 //@Test
 public class TestRunner //extends AbstractTestNGCucumberTests 
     extends AbstractTestNGCucumberParallelTests 

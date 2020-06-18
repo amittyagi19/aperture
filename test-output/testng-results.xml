@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="2" passed="2">
+<testng-results skipped="0" failed="1" total="2" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="12254" started-at="2020-06-18T13:50:42Z" finished-at="2020-06-18T13:50:54Z">
+  <suite name="MSL BDD Test Suite" duration-ms="22306" started-at="2020-06-18T15:18:06Z" finished-at="2020-06-18T15:18:28Z">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@6be46e8f]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="Default test" duration-ms="12254" started-at="2020-06-18T13:50:42Z" finished-at="2020-06-18T13:50:54Z">
+    <test name="User Group Test" duration-ms="22306" started-at="2020-06-18T15:18:06Z" finished-at="2020-06-18T15:18:28Z">
       <class name="runner.TestRunner">
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:runner.TestRunner@6be46e8f]" name="setUpClass" is-config="true" duration-ms="1029" started-at="2020-06-18T19:20:42Z" finished-at="2020-06-18T19:20:43Z">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:runner.TestRunner@6be46e8f]" name="setUpClass" is-config="true" duration-ms="932" started-at="2020-06-18T20:48:06Z" finished-at="2020-06-18T20:48:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="before()[pri:0, instance:runner.TestRunner@6be46e8f]" name="before" is-config="true" duration-ms="0" started-at="2020-06-18T19:20:43Z" finished-at="2020-06-18T19:20:43Z">
+        <test-method status="PASS" signature="before()[pri:0, instance:runner.TestRunner@6be46e8f]" name="before" is-config="true" duration-ms="0" started-at="2020-06-18T20:48:07Z" finished-at="2020-06-18T20:48:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- before -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@6be46e8f]" name="runScenario" duration-ms="661" started-at="2020-06-18T19:20:51Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-06-18T19:20:52Z">
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@6be46e8f]" name="runScenario" duration-ms="11979" started-at="2020-06-18T20:48:15Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-06-18T20:48:27Z">
           <params>
             <param index="0">
               <value>
@@ -31,22 +31,38 @@
               </value>
             </param>
           </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected:<5> but was:<6>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected:<5> but was:<6>
+	at org.junit.Assert.fail(Assert.java:93)
+	at org.junit.Assert.failNotEquals(Assert.java:647)
+	at org.junit.Assert.assertEquals(Assert.java:128)
+	at org.junit.Assert.assertEquals(Assert.java:472)
+	at org.junit.Assert.assertEquals(Assert.java:456)
+	at com.gspann.aperture.steps.AccountStep.this_is_my_first_feature(AccountStep.java:29)
+	at ?.This is my first feature(file:///E:/Apparture/Aperture-Project/MVN/aperture/src/test/resources/features/1-AccountCreate.feature:6)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="runtest()[pri:0, instance:runner.TestRunner@6be46e8f]" name="runtest" duration-ms="1" started-at="2020-06-18T19:20:52Z" finished-at="2020-06-18T19:20:52Z">
+        <test-method status="PASS" signature="runtest()[pri:0, instance:runner.TestRunner@6be46e8f]" name="runtest" duration-ms="1" started-at="2020-06-18T20:48:27Z" finished-at="2020-06-18T20:48:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runtest -->
-        <test-method status="PASS" signature="after()[pri:0, instance:runner.TestRunner@6be46e8f]" name="after" is-config="true" duration-ms="10" started-at="2020-06-18T19:20:52Z" finished-at="2020-06-18T19:20:52Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- after -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runner.TestRunner@6be46e8f]" name="tearDownClass" is-config="true" duration-ms="1863" started-at="2020-06-18T19:20:52Z" finished-at="2020-06-18T19:20:54Z">
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runner.TestRunner@6be46e8f]" name="tearDownClass" is-config="true" duration-ms="1083" started-at="2020-06-18T20:48:27Z" finished-at="2020-06-18T20:48:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
+        <test-method status="PASS" signature="after()[pri:0, instance:runner.TestRunner@6be46e8f]" name="after" is-config="true" duration-ms="0" started-at="2020-06-18T20:48:27Z" finished-at="2020-06-18T20:48:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
       </class> <!-- runner.TestRunner -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- User Group Test -->
+  </suite> <!-- MSL BDD Test Suite -->
 </testng-results>
