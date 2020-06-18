@@ -26,7 +26,7 @@ public class TestRunner extends AbstractTestNGCucumberParallelTests {
 	@AfterClass
 	public static void after() {
 		duration = System.currentTimeMillis() - duration;
-		System.out.println("DURATION - " + duration);
+		System.out.println("Test DURATION - " + duration);
 		
 		//"io.qameta.allure.cucumber4jvm.AllureCucumber4Jvm"
 		//tags = {"@groupMark"}
