@@ -2,27 +2,27 @@
 <testng-results skipped="0" failed="0" total="0" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="MSL BDD Test Suite" duration-ms="8892" started-at="2020-06-18T07:00:00Z" finished-at="2020-06-18T07:00:09Z">
+  <suite name="MSL BDD Test Suite" duration-ms="8918" started-at="2020-06-18T08:13:04Z" finished-at="2020-06-18T08:13:13Z">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@6be46e8f]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="User Group Test" duration-ms="8892" started-at="2020-06-18T07:00:00Z" finished-at="2020-06-18T07:00:09Z">
+    <test name="User Group Test" duration-ms="8918" started-at="2020-06-18T08:13:04Z" finished-at="2020-06-18T08:13:13Z">
       <class name="runner.TestRunner">
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:runner.TestRunner@6be46e8f]" name="setUpClass" is-config="true" duration-ms="814" started-at="2020-06-18T12:30:00Z" finished-at="2020-06-18T12:30:01Z">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:runner.TestRunner@6be46e8f]" name="setUpClass" is-config="true" duration-ms="867" started-at="2020-06-18T13:43:04Z" finished-at="2020-06-18T13:43:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="before()[pri:0, instance:runner.TestRunner@6be46e8f]" name="before" is-config="true" duration-ms="0" started-at="2020-06-18T12:30:01Z" finished-at="2020-06-18T12:30:01Z">
+        <test-method status="PASS" signature="before()[pri:0, instance:runner.TestRunner@6be46e8f]" name="before" is-config="true" duration-ms="0" started-at="2020-06-18T13:43:05Z" finished-at="2020-06-18T13:43:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- before -->
-        <test-method status="PASS" signature="after()[pri:0, instance:runner.TestRunner@6be46e8f]" name="after" is-config="true" duration-ms="1" started-at="2020-06-18T12:30:08Z" finished-at="2020-06-18T12:30:08Z">
+        <test-method status="PASS" signature="after()[pri:0, instance:runner.TestRunner@6be46e8f]" name="after" is-config="true" duration-ms="0" started-at="2020-06-18T13:43:12Z" finished-at="2020-06-18T13:43:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- after -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runner.TestRunner@6be46e8f]" name="tearDownClass" is-config="true" duration-ms="1052" started-at="2020-06-18T12:30:08Z" finished-at="2020-06-18T12:30:09Z">
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runner.TestRunner@6be46e8f]" name="tearDownClass" is-config="true" duration-ms="930" started-at="2020-06-18T13:43:12Z" finished-at="2020-06-18T13:43:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
