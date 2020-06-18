@@ -26,6 +26,6 @@ public class AccountStep  {
 	@Given("This is my first feature")
 	public void this_is_my_first_feature() {
 		System.out.println("This is my first feature");
-		//Assert.assertEquals(5, 6);
+		Assert.assertEquals(5, 6);
 	}	
 }
